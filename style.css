@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+    color: #1e293b;
+}
+
+.container {
+    width: 620px;
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 35px 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #64748b;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.intro {
+    background-color: #f7f9fc;
+    border-left: 4px solid #2563eb;
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 1.7;
+}
+
+.intro strong {
+    color: #1d4ed8;
+}
+
+h3 {
+    font-weight: normal;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-top: 35px;
+}
+
+.lab-button {
+    display: block;
+    background-color: #2d65d9;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px;
+    margin: 18px 0;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.lab-button:hover {
+    background-color: #1749ad;
+}
+
+footer {
+    text-align: center;
+    color: #64748b;
+    margin-top: 30px;
+}
